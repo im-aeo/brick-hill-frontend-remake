@@ -43,10 +43,54 @@
 		</ul>
 	</main>
 </nav>
+<nav class="navbar-bottom">
+	<main class="container">
+		<ul class="navbar-nav flex -ml-2 mr-auto">
+			<li class="navbar-item">
+				<a href="/" class="navbar-link !p-2">
+					<img src="/logo.svg" alt="Brick Hill Logo" class="w-[120px]" />
+				</a>
+			</li>
+			<li class="navbar-item">
+				<a href="/" class="navbar-link">Play</a>
+			</li>
+			<li class="navbar-item">
+				<a href="/" class="navbar-link">Shop</a>
+			</li>
+			<li class="navbar-item">
+				<a href="/" class="navbar-link">Community</a>
+			</li>
+			<li class="navbar-item">
+				<a href="/" class="navbar-link">Membership</a>
+			</li>
+			<li class="navbar-item">
+				<button class="navbar-link gap-0.5 group w-[38px] !px-0">
+					<div
+						class="h-[6px] w-[6px] border-[1.5px] border-neutral-100 rounded-full transition-all ease-linear group-hover:bg-neutral-100"
+					/>
+					<div
+						class="h-[6px] w-[6px] border-[1.5px] border-neutral-100 rounded-full transition-all ease-linear group-hover:bg-neutral-100"
+					/>
+					<div
+						class="h-[6px] w-[6px] border-[1.5px] border-neutral-100 rounded-full transition-all ease-linear group-hover:bg-neutral-100"
+					/>
+				</button>
+			</li>
+		</ul>
+		<ul class="navbar-nav flex">
+			<li class="navbar-item">
+				<a href="#" class="navbar-link">aeo</a>
+			</li>
+		</ul>
+	</main>
+</nav>
 
 <style lang="postcss">
 	.navbar {
 		@apply bg-surface-950 fixed left-0 right-0 py-1;
+	}
+	.navbar-bottom {
+		@apply bg-surface-550 fixed left-0 right-0 py-1;
 	}
 	.navbar .container {
 		@apply flex py-0 items-center;
