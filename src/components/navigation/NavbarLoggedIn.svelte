@@ -87,7 +87,8 @@
 	}
 	.navbar-bottom .container {
 		@apply flex py-0 items-center;
-		max-width: 65rem;
+		max-width: 68rem;
+    		top: 45px;
 	}
 	.navbar-nav {
 		@apply items-center;
