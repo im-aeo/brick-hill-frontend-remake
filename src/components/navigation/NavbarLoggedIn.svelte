@@ -45,39 +45,30 @@
 </nav>
 <nav class="navbar-bottom">
 	<main class="container">
-		<ul class="navbar-nav flex -ml-2 mr-auto">
+		<ul class="navbar-nav flex mr-auto">
 			<li class="navbar-item">
-				<a href="/" class="navbar-link !p-2">
-					<img src="/logo.svg" alt="Brick Hill Logo" class="w-[120px]" />
-				</a>
+				<a href="/" class="navbar-link">Home</a>
 			</li>
 			<li class="navbar-item">
-				<a href="/" class="navbar-link">Play</a>
+				<a href="/" class="navbar-link">Trades</a>
 			</li>
 			<li class="navbar-item">
-				<a href="/" class="navbar-link">Shop</a>
+				<a href="/" class="navbar-link">Avatar</a>
 			</li>
 			<li class="navbar-item">
-				<a href="/" class="navbar-link">Community</a>
-			</li>
-			<li class="navbar-item">
-				<a href="/" class="navbar-link">Membership</a>
-			</li>
-			<li class="navbar-item">
-				<button class="navbar-link gap-0.5 group w-[38px] !px-0">
-					<div
-						class="h-[6px] w-[6px] border-[1.5px] border-neutral-100 rounded-full transition-all ease-linear group-hover:bg-neutral-100"
-					/>
-					<div
-						class="h-[6px] w-[6px] border-[1.5px] border-neutral-100 rounded-full transition-all ease-linear group-hover:bg-neutral-100"
-					/>
-					<div
-						class="h-[6px] w-[6px] border-[1.5px] border-neutral-100 rounded-full transition-all ease-linear group-hover:bg-neutral-100"
-					/>
-				</button>
+				<a href="/" class="navbar-link">Profile</a>
 			</li>
 		</ul>
 		<ul class="navbar-nav flex">
+			<li class="navbar-item">
+				<a href="/" class="navbar-link">Settings</a>
+			</li>
+			<li class="navbar-item">
+				<a href="/" class="navbar-link">Promocodes</a>
+			</li>
+			<li class="navbar-item">
+				<a href="/" class="navbar-link">Blog</a>
+			</li>
 			<li class="navbar-item">
 				<a href="#" class="navbar-link">aeo</a>
 			</li>
@@ -90,10 +81,14 @@
 		@apply bg-surface-950 fixed left-0 right-0 py-1;
 	}
 	.navbar-bottom {
-		@apply bg-surface-550 fixed left-0 right-0 py-1;
+		@apply bg-gray-600 fixed left-0 right-0 py-1;
 	}
 	.navbar .container {
 		@apply flex py-0 items-center;
+	}
+	.navbar-bottom .container {
+		@apply flex py-0 items-center;
+		max-width: 65rem;
 	}
 	.navbar-nav {
 		@apply items-center;
