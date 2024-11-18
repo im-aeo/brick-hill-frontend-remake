@@ -38,8 +38,18 @@
 		</ul>
 		<ul class="navbar-nav flex">
 			<li class="navbar-item">
-				<a href="#" class="navbar-link">aeo</a>
+				<a href="#" class="navbar-link text-red-500">1 Trade</a>
 			</li>
+<li class="navbar-item">
+				<a href="#" class="navbar-link text-cyan-400">1 Friend Request</a>
+			</li>
+<li class="navbar-item">
+				<a href="#" class="navbar-link text-green-500">10 Bucks</a>
+			</li>
+<li class="navbar-item">
+				<a href="#" class="navbar-link text-amber-400">10 Bits</a>
+			</li>
+
 		</ul>
 	</main>
 </nav>
@@ -48,9 +58,6 @@
 		<ul class="navbar-nav flex mr-auto">
 			<li class="navbar-item">
 				<a href="/" class="navbar-link">Home</a>
-			</li>
-			<li class="navbar-item">
-				<a href="/" class="navbar-link">Trades</a>
 			</li>
 			<li class="navbar-item">
 				<a href="/" class="navbar-link">Avatar</a>
@@ -70,7 +77,7 @@
 				<a href="/" class="navbar-link">Blog</a>
 			</li>
 			<li class="navbar-item">
-				<a href="/" class="navbar-link">aeo</a>
+				<a href="/" class="navbar-link text-red-500">Logout</a>
 			</li>
 		</ul>
 	</main>
