@@ -53,7 +53,7 @@
 		</ul>
 	</main>
 </nav>
-<nav class="navbar-bottom px-4 py-3 mx-auto">
+<nav class="navbar-bottom px-4 py-3 mx-auto top-[45px]">
 	<main class="container">
 		<ul class="navbar-nav flex mr-auto">
 			<li class="navbar-item">
@@ -95,7 +95,6 @@
 	.navbar-bottom .container {
 		@apply flex py-0 items-center;
 		max-width: 68rem;
-    		top: 45px;
 	}
 	.navbar-nav {
 		@apply items-center;
