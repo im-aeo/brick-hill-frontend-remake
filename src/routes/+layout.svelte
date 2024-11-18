@@ -1,10 +1,10 @@
 <script lang="ts">
 	import '$src/app.postcss';
-	import Navbar from '$src/components/navigation/Navbar.svelte';
+	import NavbarLoggedIn from '$src/components/navigation/NavbarLoggedIn.svelte';
 	import Footer from '$src/components/navigation/Footer.svelte';
 </script>
 
-<Navbar />
+<NavbarLoggedIn />
 <main class="container">
 	<slot />
 </main>
