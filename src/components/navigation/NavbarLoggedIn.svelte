@@ -1,7 +1,6 @@
 <script>
 	import Button from '../Button.svelte';
 </script>
-<div class="flex flex-col">
 
 <nav class="navbar">
 	<main class="container">
@@ -44,7 +43,7 @@
 		</ul>
 	</main>
 </nav>
-<nav class="navbar-bottom">
+<nav class="navbar-bottom px-4 py-3 mx-auto">
 	<main class="container">
 		<ul class="navbar-nav flex mr-auto">
 			<li class="navbar-item">
@@ -76,7 +75,6 @@
 		</ul>
 	</main>
 </nav>
-</div>
 <style lang="postcss">
 	.navbar {
 		@apply bg-surface-950 fixed left-0 right-0 py-1;
