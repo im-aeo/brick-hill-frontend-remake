@@ -70,7 +70,7 @@
 				<a href="/" class="navbar-link">Blog</a>
 			</li>
 			<li class="navbar-item">
-				<a href="#" class="navbar-link">aeo</a>
+				<a href="/" class="navbar-link">aeo</a>
 			</li>
 		</ul>
 	</main>
