@@ -38,9 +38,7 @@
 		</ul>
 		<ul class="navbar-nav flex">
 			<li class="navbar-item">
-				<a>
-        <img>
-        </a>
+				<a href="#" class="navbar-link">aeo</a>
 			</li>
 		</ul>
 	</main>
